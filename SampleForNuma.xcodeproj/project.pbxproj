@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24DA9B43F129E8A76F6A62AC /* Pods_SampleForNuma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6943114FA97E965DD6FC9B53 /* Pods_SampleForNuma.framework */; };
 		24E0D3C01EB4D841001413E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E0D3BF1EB4D841001413E8 /* AppDelegate.swift */; };
 		24E0D3C21EB4D841001413E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E0D3C11EB4D841001413E8 /* ViewController.swift */; };
 		24E0D3C51EB4D841001413E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E0D3C31EB4D841001413E8 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		24E0D3CA1EB4D841001413E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E0D3C81EB4D841001413E8 /* LaunchScreen.storyboard */; };
 		24E0D3D51EB4D842001413E8 /* SampleForNumaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E0D3D41EB4D842001413E8 /* SampleForNumaTests.swift */; };
 		24E0D3E01EB4D842001413E8 /* SampleForNumaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E0D3DF1EB4D842001413E8 /* SampleForNumaUITests.swift */; };
+		F2C84A6562831D7065156952 /* Pods_SampleForNumaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D073F33EB7EEA5F5DBEDF3AA /* Pods_SampleForNumaTests.framework */; };
+		FCCFD58C0336812794522B64 /* Pods_SampleForNumaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503ED9015E027BC67435FCF0 /* Pods_SampleForNumaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		24E0D3DB1EB4D842001413E8 /* SampleForNumaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleForNumaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E0D3DF1EB4D842001413E8 /* SampleForNumaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleForNumaUITests.swift; sourceTree = "<group>"; };
 		24E0D3E11EB4D842001413E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39730859366070C75D8212BD /* Pods-SampleForNumaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleForNumaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleForNumaUITests/Pods-SampleForNumaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DF6B29C3B62E066A1F6CBA7 /* Pods-SampleForNumaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleForNumaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleForNumaTests/Pods-SampleForNumaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42BD7333A7EED106464FFBE0 /* Pods-SampleForNuma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleForNuma.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleForNuma/Pods-SampleForNuma.debug.xcconfig"; sourceTree = "<group>"; };
+		492AE7BD99895CF222301391 /* Pods-SampleForNumaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleForNumaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleForNumaTests/Pods-SampleForNumaTests.release.xcconfig"; sourceTree = "<group>"; };
+		503ED9015E027BC67435FCF0 /* Pods_SampleForNumaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleForNumaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6943114FA97E965DD6FC9B53 /* Pods_SampleForNuma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleForNuma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E25EF40251C6470585A646B /* Pods-SampleForNumaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleForNumaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleForNumaUITests/Pods-SampleForNumaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9AC3C92A901243F1A53BEDFB /* Pods-SampleForNuma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleForNuma.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleForNuma/Pods-SampleForNuma.release.xcconfig"; sourceTree = "<group>"; };
+		D073F33EB7EEA5F5DBEDF3AA /* Pods_SampleForNumaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleForNumaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DA9B43F129E8A76F6A62AC /* Pods_SampleForNuma.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C84A6562831D7065156952 /* Pods_SampleForNumaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCCFD58C0336812794522B64 /* Pods_SampleForNumaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EDAB435B7992B09EF728C56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42BD7333A7EED106464FFBE0 /* Pods-SampleForNuma.debug.xcconfig */,
+				9AC3C92A901243F1A53BEDFB /* Pods-SampleForNuma.release.xcconfig */,
+				3DF6B29C3B62E066A1F6CBA7 /* Pods-SampleForNumaTests.debug.xcconfig */,
+				492AE7BD99895CF222301391 /* Pods-SampleForNumaTests.release.xcconfig */,
+				39730859366070C75D8212BD /* Pods-SampleForNumaUITests.debug.xcconfig */,
+				8E25EF40251C6470585A646B /* Pods-SampleForNumaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		24E0D3B31EB4D841001413E8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				24E0D3D31EB4D842001413E8 /* SampleForNumaTests */,
 				24E0D3DE1EB4D842001413E8 /* SampleForNumaUITests */,
 				24E0D3BD1EB4D841001413E8 /* Products */,
+				0EDAB435B7992B09EF728C56 /* Pods */,
+				748FB4F1125F4E0F24CB4113 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = SampleForNumaUITests;
 			sourceTree = "<group>";
 		};
+		748FB4F1125F4E0F24CB4113 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6943114FA97E965DD6FC9B53 /* Pods_SampleForNuma.framework */,
+				D073F33EB7EEA5F5DBEDF3AA /* Pods_SampleForNumaTests.framework */,
+				503ED9015E027BC67435FCF0 /* Pods_SampleForNumaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24E0D3E41EB4D842001413E8 /* Build configuration list for PBXNativeTarget "SampleForNuma" */;
 			buildPhases = (
+				25F02D7C6F8EA5ABFDD27E61 /* [CP] Check Pods Manifest.lock */,
 				24E0D3B81EB4D841001413E8 /* Sources */,
 				24E0D3B91EB4D841001413E8 /* Frameworks */,
 				24E0D3BA1EB4D841001413E8 /* Resources */,
+				7CE7E8F4C0AE96FBE4C20CA3 /* [CP] Embed Pods Frameworks */,
+				5B42F1E28F7E748588AA7C84 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24E0D3E71EB4D842001413E8 /* Build configuration list for PBXNativeTarget "SampleForNumaTests" */;
 			buildPhases = (
+				FC08544EA507EE2922105968 /* [CP] Check Pods Manifest.lock */,
 				24E0D3CC1EB4D842001413E8 /* Sources */,
 				24E0D3CD1EB4D842001413E8 /* Frameworks */,
 				24E0D3CE1EB4D842001413E8 /* Resources */,
+				961004E6E2D426600354A09F /* [CP] Embed Pods Frameworks */,
+				C365FCE9AE2E681F926774A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24E0D3EA1EB4D842001413E8 /* Build configuration list for PBXNativeTarget "SampleForNumaUITests" */;
 			buildPhases = (
+				B7F878F1CB6AE3F88342092F /* [CP] Check Pods Manifest.lock */,
 				24E0D3D71EB4D842001413E8 /* Sources */,
 				24E0D3D81EB4D842001413E8 /* Frameworks */,
 				24E0D3D91EB4D842001413E8 /* Resources */,
+				231DD8ACF53FBB6603E39952 /* [CP] Embed Pods Frameworks */,
+				8BDE316302C75E581C8B2BCB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		231DD8ACF53FBB6603E39952 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleForNumaUITests/Pods-SampleForNumaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25F02D7C6F8EA5ABFDD27E61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B42F1E28F7E748588AA7C84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleForNuma/Pods-SampleForNuma-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CE7E8F4C0AE96FBE4C20CA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleForNuma/Pods-SampleForNuma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BDE316302C75E581C8B2BCB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleForNumaUITests/Pods-SampleForNumaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		961004E6E2D426600354A09F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleForNumaTests/Pods-SampleForNumaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7F878F1CB6AE3F88342092F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C365FCE9AE2E681F926774A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleForNumaTests/Pods-SampleForNumaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC08544EA507EE2922105968 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24E0D3B81EB4D841001413E8 /* Sources */ = {
@@ -410,6 +597,7 @@
 		};
 		24E0D3E51EB4D842001413E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42BD7333A7EED106464FFBE0 /* Pods-SampleForNuma.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SampleForNuma/Info.plist;
@@ -422,6 +610,7 @@
 		};
 		24E0D3E61EB4D842001413E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC3C92A901243F1A53BEDFB /* Pods-SampleForNuma.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SampleForNuma/Info.plist;
@@ -434,6 +623,7 @@
 		};
 		24E0D3E81EB4D842001413E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF6B29C3B62E066A1F6CBA7 /* Pods-SampleForNumaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +638,7 @@
 		};
 		24E0D3E91EB4D842001413E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 492AE7BD99895CF222301391 /* Pods-SampleForNumaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +653,7 @@
 		};
 		24E0D3EB1EB4D842001413E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39730859366070C75D8212BD /* Pods-SampleForNumaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SampleForNumaUITests/Info.plist;
@@ -475,6 +667,7 @@
 		};
 		24E0D3EC1EB4D842001413E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E25EF40251C6470585A646B /* Pods-SampleForNumaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SampleForNumaUITests/Info.plist;

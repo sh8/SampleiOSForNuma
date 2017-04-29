@@ -1,0 +1,6 @@
+framework module Pods_SampleForNumaUITests {
+  umbrella header "Pods-SampleForNumaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
