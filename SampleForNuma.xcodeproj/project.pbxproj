@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24E0D3C01EB4D841001413E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E0D3BF1EB4D841001413E8 /* AppDelegate.swift */; };
+		24E0D3C21EB4D841001413E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E0D3C11EB4D841001413E8 /* ViewController.swift */; };
+		24E0D3C51EB4D841001413E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E0D3C31EB4D841001413E8 /* Main.storyboard */; };
+		24E0D3C71EB4D841001413E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E0D3C61EB4D841001413E8 /* Assets.xcassets */; };
+		24E0D3CA1EB4D841001413E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E0D3C81EB4D841001413E8 /* LaunchScreen.storyboard */; };
+		24E0D3D51EB4D842001413E8 /* SampleForNumaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E0D3D41EB4D842001413E8 /* SampleForNumaTests.swift */; };
+		24E0D3E01EB4D842001413E8 /* SampleForNumaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E0D3DF1EB4D842001413E8 /* SampleForNumaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24E0D3D11EB4D842001413E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24E0D3B41EB4D841001413E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24E0D3BB1EB4D841001413E8;
+			remoteInfo = SampleForNuma;
+		};
+		24E0D3DC1EB4D842001413E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24E0D3B41EB4D841001413E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24E0D3BB1EB4D841001413E8;
+			remoteInfo = SampleForNuma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24E0D3BC1EB4D841001413E8 /* SampleForNuma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleForNuma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E0D3BF1EB4D841001413E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24E0D3C11EB4D841001413E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24E0D3C41EB4D841001413E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24E0D3C61EB4D841001413E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24E0D3C91EB4D841001413E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24E0D3CB1EB4D841001413E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E0D3D01EB4D842001413E8 /* SampleForNumaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleForNumaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E0D3D41EB4D842001413E8 /* SampleForNumaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleForNumaTests.swift; sourceTree = "<group>"; };
+		24E0D3D61EB4D842001413E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E0D3DB1EB4D842001413E8 /* SampleForNumaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleForNumaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E0D3DF1EB4D842001413E8 /* SampleForNumaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleForNumaUITests.swift; sourceTree = "<group>"; };
+		24E0D3E11EB4D842001413E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24E0D3B91EB4D841001413E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E0D3CD1EB4D842001413E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E0D3D81EB4D842001413E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24E0D3B31EB4D841001413E8 = {
+			isa = PBXGroup;
+			children = (
+				24E0D3BE1EB4D841001413E8 /* SampleForNuma */,
+				24E0D3D31EB4D842001413E8 /* SampleForNumaTests */,
+				24E0D3DE1EB4D842001413E8 /* SampleForNumaUITests */,
+				24E0D3BD1EB4D841001413E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24E0D3BD1EB4D841001413E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24E0D3BC1EB4D841001413E8 /* SampleForNuma.app */,
+				24E0D3D01EB4D842001413E8 /* SampleForNumaTests.xctest */,
+				24E0D3DB1EB4D842001413E8 /* SampleForNumaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24E0D3BE1EB4D841001413E8 /* SampleForNuma */ = {
+			isa = PBXGroup;
+			children = (
+				24E0D3BF1EB4D841001413E8 /* AppDelegate.swift */,
+				24E0D3C11EB4D841001413E8 /* ViewController.swift */,
+				24E0D3C31EB4D841001413E8 /* Main.storyboard */,
+				24E0D3C61EB4D841001413E8 /* Assets.xcassets */,
+				24E0D3C81EB4D841001413E8 /* LaunchScreen.storyboard */,
+				24E0D3CB1EB4D841001413E8 /* Info.plist */,
+			);
+			path = SampleForNuma;
+			sourceTree = "<group>";
+		};
+		24E0D3D31EB4D842001413E8 /* SampleForNumaTests */ = {
+			isa = PBXGroup;
+			children = (
+				24E0D3D41EB4D842001413E8 /* SampleForNumaTests.swift */,
+				24E0D3D61EB4D842001413E8 /* Info.plist */,
+			);
+			path = SampleForNumaTests;
+			sourceTree = "<group>";
+		};
+		24E0D3DE1EB4D842001413E8 /* SampleForNumaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24E0D3DF1EB4D842001413E8 /* SampleForNumaUITests.swift */,
+				24E0D3E11EB4D842001413E8 /* Info.plist */,
+			);
+			path = SampleForNumaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24E0D3BB1EB4D841001413E8 /* SampleForNuma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E0D3E41EB4D842001413E8 /* Build configuration list for PBXNativeTarget "SampleForNuma" */;
+			buildPhases = (
+				24E0D3B81EB4D841001413E8 /* Sources */,
+				24E0D3B91EB4D841001413E8 /* Frameworks */,
+				24E0D3BA1EB4D841001413E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleForNuma;
+			productName = SampleForNuma;
+			productReference = 24E0D3BC1EB4D841001413E8 /* SampleForNuma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24E0D3CF1EB4D842001413E8 /* SampleForNumaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E0D3E71EB4D842001413E8 /* Build configuration list for PBXNativeTarget "SampleForNumaTests" */;
+			buildPhases = (
+				24E0D3CC1EB4D842001413E8 /* Sources */,
+				24E0D3CD1EB4D842001413E8 /* Frameworks */,
+				24E0D3CE1EB4D842001413E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24E0D3D21EB4D842001413E8 /* PBXTargetDependency */,
+			);
+			name = SampleForNumaTests;
+			productName = SampleForNumaTests;
+			productReference = 24E0D3D01EB4D842001413E8 /* SampleForNumaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24E0D3DA1EB4D842001413E8 /* SampleForNumaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E0D3EA1EB4D842001413E8 /* Build configuration list for PBXNativeTarget "SampleForNumaUITests" */;
+			buildPhases = (
+				24E0D3D71EB4D842001413E8 /* Sources */,
+				24E0D3D81EB4D842001413E8 /* Frameworks */,
+				24E0D3D91EB4D842001413E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24E0D3DD1EB4D842001413E8 /* PBXTargetDependency */,
+			);
+			name = SampleForNumaUITests;
+			productName = SampleForNumaUITests;
+			productReference = 24E0D3DB1EB4D842001413E8 /* SampleForNumaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24E0D3B41EB4D841001413E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Shun Iwase";
+				TargetAttributes = {
+					24E0D3BB1EB4D841001413E8 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					24E0D3CF1EB4D842001413E8 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24E0D3BB1EB4D841001413E8;
+					};
+					24E0D3DA1EB4D842001413E8 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24E0D3BB1EB4D841001413E8;
+					};
+				};
+			};
+			buildConfigurationList = 24E0D3B71EB4D841001413E8 /* Build configuration list for PBXProject "SampleForNuma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24E0D3B31EB4D841001413E8;
+			productRefGroup = 24E0D3BD1EB4D841001413E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24E0D3BB1EB4D841001413E8 /* SampleForNuma */,
+				24E0D3CF1EB4D842001413E8 /* SampleForNumaTests */,
+				24E0D3DA1EB4D842001413E8 /* SampleForNumaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24E0D3BA1EB4D841001413E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E0D3CA1EB4D841001413E8 /* LaunchScreen.storyboard in Resources */,
+				24E0D3C71EB4D841001413E8 /* Assets.xcassets in Resources */,
+				24E0D3C51EB4D841001413E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E0D3CE1EB4D842001413E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E0D3D91EB4D842001413E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24E0D3B81EB4D841001413E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E0D3C21EB4D841001413E8 /* ViewController.swift in Sources */,
+				24E0D3C01EB4D841001413E8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E0D3CC1EB4D842001413E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E0D3D51EB4D842001413E8 /* SampleForNumaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E0D3D71EB4D842001413E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E0D3E01EB4D842001413E8 /* SampleForNumaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24E0D3D21EB4D842001413E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24E0D3BB1EB4D841001413E8 /* SampleForNuma */;
+			targetProxy = 24E0D3D11EB4D842001413E8 /* PBXContainerItemProxy */;
+		};
+		24E0D3DD1EB4D842001413E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24E0D3BB1EB4D841001413E8 /* SampleForNuma */;
+			targetProxy = 24E0D3DC1EB4D842001413E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24E0D3C31EB4D841001413E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E0D3C41EB4D841001413E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24E0D3C81EB4D841001413E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E0D3C91EB4D841001413E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24E0D3E21EB4D842001413E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24E0D3E31EB4D842001413E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24E0D3E51EB4D842001413E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleForNuma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.for.numa.SampleForNuma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		24E0D3E61EB4D842001413E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SampleForNuma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.for.numa.SampleForNuma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		24E0D3E81EB4D842001413E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SampleForNumaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.for.numa.SampleForNumaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleForNuma.app/SampleForNuma";
+			};
+			name = Debug;
+		};
+		24E0D3E91EB4D842001413E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SampleForNumaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.for.numa.SampleForNumaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleForNuma.app/SampleForNuma";
+			};
+			name = Release;
+		};
+		24E0D3EB1EB4D842001413E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SampleForNumaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.for.numa.SampleForNumaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SampleForNuma;
+			};
+			name = Debug;
+		};
+		24E0D3EC1EB4D842001413E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SampleForNumaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sample.for.numa.SampleForNumaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SampleForNuma;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24E0D3B71EB4D841001413E8 /* Build configuration list for PBXProject "SampleForNuma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E0D3E21EB4D842001413E8 /* Debug */,
+				24E0D3E31EB4D842001413E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E0D3E41EB4D842001413E8 /* Build configuration list for PBXNativeTarget "SampleForNuma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E0D3E51EB4D842001413E8 /* Debug */,
+				24E0D3E61EB4D842001413E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24E0D3E71EB4D842001413E8 /* Build configuration list for PBXNativeTarget "SampleForNumaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E0D3E81EB4D842001413E8 /* Debug */,
+				24E0D3E91EB4D842001413E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24E0D3EA1EB4D842001413E8 /* Build configuration list for PBXNativeTarget "SampleForNumaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E0D3EB1EB4D842001413E8 /* Debug */,
+				24E0D3EC1EB4D842001413E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24E0D3B41EB4D841001413E8 /* Project object */;
+}
